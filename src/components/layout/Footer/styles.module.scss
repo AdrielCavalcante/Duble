@@ -1,0 +1,62 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(to left, #080808, #050504);
+    color: #FFF;
+    padding: 1em;
+    
+    div {
+        display: flex;
+        flex-direction: column;
+        
+        h6{
+            font-size: 1rem;
+            color: yellow;
+            margin-bottom: .5rem;
+        }
+
+        a{
+            text-decoration: none;
+            font-size: .9rem;
+            margin-bottom: .25rem;
+            color: white;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        label {
+            font-size: .9rem;
+            margin-bottom: .25rem;
+            cursor: pointer;
+        }
+
+        span {
+            color: yellow;
+            margin-bottom: .25rem;
+
+            &:hover {
+                color: white;
+            }
+        }
+
+        div {
+            flex-direction: row;
+
+            a{
+                color: white;
+                font-size: 2rem;
+
+                &:not(&:first-child){
+                    margin-left: 1.5rem;
+                }
+
+                &:hover {
+                    color: yellow;
+                }
+            }
+        }
+    }
+}
