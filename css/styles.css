@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #181818;
+    color: #fadd00;
+}
+
+.dropdown-item:active, .dropdown-item.active {
+    background-color: #fadd00;
+    color: black;
+}
+
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1rem auto;
+}
+
+.titulo strong {
+    color: #fadd00;
+    font-weight: 600;
+}
+
+.carousel-caption {
+    margin: 5rem 0;
+    padding: 1rem 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.carousel-caption ul {
+    text-align: left;
+    margin-left: 13rem;
+}
+
+.carousel-caption strong {
+    color: #fadd00;
+}
+
+.carousel-caption h5 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: #fadd00;
+}
+
+#estudio p {
+    margin: .1rem 0;
+}
+
+#estudio strong {
+    text-transform: uppercase;
+}
+
+.saibaMais {
+    background-color: black;
+    color: white;
+    width: 160px;
+    height: 40px;
+    padding: 5px 20px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    transition: .75s;
+}
+
+.saibaMais:hover{
+    text-decoration: none;
+    color: black;
+    background-color: #fadd00;
+}
+
+.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
+    background-color: #fadd00;
+}
+
+.mainTitle{
+    color: white;
+    margin: 1.25rem 0;
+    font-size: 22pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#sobre {
+    margin-bottom: 1.5rem;
+}
+
+#servicos {
+    background-color: #fadd00;
+}
+
+#servicos .row {
+    margin: 0 7vw;
+}
+
+#servicos a {
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+#servicos a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#servicos i {
+    display: block;
+    font-size: 22pt;
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 1rem;
+    min-width: 70px;
+    max-width: 70px;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+#servicos i:hover {
+    border: 2px solid white;
+}
+
+#servicos span {
+    font-size: 10pt;
+    margin-top: .5rem;
+}
+
+#contato a {
+    color: white;
+    text-decoration: none;
+}
+
+#contato i {
+    font-size: 22pt;
+}
+
+#alunos {
+    background-color: #212121;
+}
+
+.card-deck {
+    max-width: 75%; 
+    margin: 1rem auto;
+}
+
+#diferenciais ul {
+    list-style-type: none;
+}
+
+#diferenciais li {
+    margin: .25rem 0;
+}
+
+#diferenciais small {
+    color: #181818 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#diferenciais .card-text {
+    text-align: justify;
+}
+
+#diferenciais .card {
+    height: 320px;
+}
+
+.card-head {
+    display: flex;
+    align-items: center;
+}
+
+.card-head i {
+    font-size: 8pt;
+    margin-right: .25rem;
+}
+
+
+.matricula {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 160px;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    transition: .75s;
+}
+
+.matricula:hover {
+    background-color: #fadd00;
+    color: black;
+}
+
+.card {
+    color: #181818;  margin: 1rem auto;
+}
+
+.prof {
+    color: black;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+.prof:hover {
+    color: #fadd00;
+    text-decoration: none;
+}
