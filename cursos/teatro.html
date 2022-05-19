@@ -29,45 +29,56 @@
             <li class="nav-item">
               <a class="nav-link" href="../index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sobre Nós</a>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Cursos
+              </a>
+              <div class="dropdown-menu" style="background-color: #181818;" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item active" href="teatro.html">Teatro <span class="sr-only">(current)</span></a>
+                <a class="dropdown-item" href="dublagem.html">Dublagem</a>
+                <a class="dropdown-item" href="../construcao.html">Radionovela</a>
+                <a class="dropdown-item" href="cinema.html">Cinema</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="../construcao.html">Cursos Livres</a>
+              </div>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                 Serviços
               </a>
               <div class="dropdown-menu" style="background-color: #181818;" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Dublagem</a>
-                <a class="dropdown-item" href="#">Acessibilidade</a>
-                <a class="dropdown-item" href="#">Audiobooks</a>
-                <a class="dropdown-item" href="#">Legendagem</a>
-                <a class="dropdown-item" href="#">Tradução</a>
+                <a class="dropdown-item" href="../construcao.html">Dublagem</a>
+                <a class="dropdown-item" href="../construcao.html">Acessibilidade</a>
+                <a class="dropdown-item" href="../construcao.html">Audiobooks</a>
+                <a class="dropdown-item" href="../construcao.html">Legendagem</a>
+                <a class="dropdown-item" href="../construcao.html">Tradução</a>
               </div>
             </li>
-            <li class="nav-item dropdown active">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                Cursos
+                Disciplinas
               </a>
               <div class="dropdown-menu active" style="background-color: #181818;" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item active" href="teatro.html">Teatro <span class="sr-only">(current)</span></a>
-                <a class="dropdown-item" href="dublagem.html">Dublagem </a>
-                <a class="dropdown-item" href="#">Localização para Games</a>
-                <a class="dropdown-item" href="#">Audiobooks</a>
-                <a class="dropdown-item" href="#">TV</a>
-                <a class="dropdown-item" href="#">Cinema</a>
-                <a class="dropdown-item" href="#">Plataformas Digitais</a>
+                <a class="dropdown-item" href="Materias/canto.html">Canto</a>
+                <a class="dropdown-item" href="Materias/corpo.html">Corpo</a>
+                <a class="dropdown-item" href="Materias/danca.html">Dança</a>
+                <a class="dropdown-item" href="Materias/historia.html">História do teatro</a>
+                <a class="dropdown-item" href="Materias/interpretacao.html">Interpretação</a>
+                <a class="dropdown-item" href="Materias/voz.html">Técnicas vocais</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#contato">Contato</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Banco de Talentos</a>
+              <a class="nav-link" href="../talentos.html">Banco de Talentos</a>
             </li>
         </div>
       </nav>
       <div class="container-fluid titulo">
-        <h1>Curso de Teatro da Família Dublemi<span style="color: #fadd00;">x</span></h1>
+        <div class="container">
+          <h1>Curso de Teatro Profissionalizante</h1>
+        </div>
       </div>
   </header>
 
@@ -75,12 +86,12 @@
     <!-- Sobre o curso -->
     <div id="sobre">
       <div class="container">
-        <div class="row" style="margin-top: 3rem;">
+        <div class="row" style="margin-top: 3rem;" id="sobreCurso">
           <div class="col-md-6">
             <h3 style="color: #fadd00; text-transform: uppercase;">Sobre o Curso:</h3>
             <p style="text-align: justify; margin-top: 1rem; margin-right: 3rem;">O curso desenvolve em seus <b style="color: #fadd00;">18 meses</b> de duração um consistente trabalho prático-teórico que busca despertar no aluno todo o seu potencial técnico e criativo. Numa trajetória que investiga tanto a interpretação realista quanto a não realista, abrangendo desde os fundamentos técnicos e práticos de diversos teóricos das artes cênicas, até os desdobramentos mais contemporâneos, o aluno é capaz de entrar em contato com diferentes técnicas e possibilidades de linguagem e expressão.<br> Em paralelo às técnicas de interpretação, a escola oferecerá aprofundamentos nos campos: <b style="color: #fadd00;">vocal</b>, <b style="color: #fadd00;">corporal</b>, <b style="color: #fadd00;">canto</b>, <b style="color: #fadd00;">dança</b>, <b style="color: #fadd00;">história do teatro</b> e as técnicas de gravação em <b style="color: #fadd00;">dublagem</b>, trabalhando com as múltiplas esferas expressivas do ator. Ao longo do curso, o aluno participará de <b style="color: #fadd00;">três montagens</b> de espetáculos teatrais nos quais vivenciará processos que o preparam para o mercado profissional.</p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 d-flex justify-content-center">
             <iframe style="margin-top: 3.25rem;" width="560" height="315" src="https://www.youtube.com/embed/eKEYBad2zPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
@@ -97,26 +108,26 @@
               <div class="carousel-item active">
                 <div class="card-deck"> 
                 <div class="card">
-                  <img src="../img/alunos1.jpg" class="card-img-top" alt="...">
+                  <img src="../img/alunos/aluno1.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Isabella Tigre</h5>
-                    <p class="card-text">Fez parte do nosso curso de dublagem.</p>
+                    <h5 class="card-title">Lucas Veneno</h5>
+                    <p class="card-text">Faz parte do nosso curso de teatro.</p>
                     <p class="card-text"><small class="text-muted">Prata da casa</small></p>
                   </div>
                 </div>
-                <div class="card">
-                  <img src="../img/alunos2.jpg" class="card-img-top" alt="...">
+                <div class="card" id="SairCell">
+                  <img src="../img/alunos/aluno2.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Leila Bass</h5>
-                    <p class="card-text">Fez parte do nosso curso de dublagem.</p>
+                    <h5 class="card-title">João Pedro Valente</h5>
+                    <p class="card-text">Faz parte do nosso curso de teatro.</p>
                     <p class="card-text"><small class="text-muted">Prata da casa</small></p>
                   </div>
                 </div>
-                <div class="card">
-                  <img src="../img/alunos3.jpg" class="card-img-top" alt="...">
+                <div class="card" id="SairCell">
+                  <img src="../img/alunos/aluno3.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Geovani Rodrigues</h5>
-                    <p class="card-text">Fez parte do nosso curso de dublagem.</p>
+                    <h5 class="card-title">Marina Manhães</h5>
+                    <p class="card-text">Faz parte do nosso curso de teatro.</p>
                     <p class="card-text"><small class="text-muted">Prata da casa</small></p>
                   </div>
                 </div>
@@ -125,26 +136,26 @@
               <div class="carousel-item">
                 <div class="card-deck"> 
                   <div class="card">
-                    <img src="../img/alunos1.jpg" class="card-img-top" alt="...">
+                    <img src="../img/alunos/aluno4.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Isabella Tigre</h5>
-                      <p class="card-text">Fez parte do nosso curso de dublagem.</p>
+                      <h5 class="card-title">Sofia Lichotti</h5>
+                      <p class="card-text">Faz parte do nosso curso de teatro.</p>
                       <p class="card-text"><small class="text-muted">Prata da casa</small></p>
                     </div>
                   </div>
-                  <div class="card">
-                    <img src="../img/alunos2.jpg" class="card-img-top" alt="...">
+                  <div class="card" id="SairCell">
+                    <img src="../img/alunos/aluno2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Leila Bass</h5>
-                      <p class="card-text">Fez parte do nosso curso de dublagem.</p>
+                      <p class="card-text">Faz parte do nosso curso de teatro.</p>
                       <p class="card-text"><small class="text-muted">Prata da casa</small></p>
                     </div>
                   </div>
-                  <div class="card">
-                    <img src="../img/alunos3.jpg" class="card-img-top" alt="...">
+                  <div class="card" id="SairCell">
+                    <img src="../img/alunos/aluno3.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Geovani Rodrigues</h5>
-                      <p class="card-text">Fez parte do nosso curso de dublagem.</p>
+                      <p class="card-text">Faz parte do nosso curso de teatro.</p>
                       <p class="card-text"><small class="text-muted">Prata da casa</small></p>
                     </div>
                   </div>
@@ -153,26 +164,26 @@
               <div class="carousel-item">
                 <div class="card-deck"> 
                   <div class="card">
-                    <img src="../img/alunos1.jpg" class="card-img-top" alt="...">
+                    <img src="../img/alunos/aluno1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Isabella Tigre</h5>
-                      <p class="card-text">Fez parte do nosso curso de dublagem.</p>
+                      <p class="card-text">Faz parte do nosso curso de teatro.</p>
                       <p class="card-text"><small class="text-muted">Prata da casa</small></p>
                     </div>
                   </div>
-                  <div class="card">
-                    <img src="../img/alunos2.jpg" class="card-img-top" alt="...">
+                  <div class="card" id="SairCell">
+                    <img src="../img/alunos/aluno2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Leila Bass</h5>
-                      <p class="card-text">Fez parte do nosso curso de dublagem.</p>
+                      <p class="card-text">Faz parte do nosso curso de teatro.</p>
                       <p class="card-text"><small class="text-muted">Prata da casa</small></p>
                     </div>
                   </div>
-                  <div class="card">
-                    <img src="../img/alunos3.jpg" class="card-img-top" alt="...">
+                  <div class="card" id="SairCell">
+                    <img src="../img/alunos/aluno3.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Geovani Rodrigues</h5>
-                      <p class="card-text">Fez parte do nosso curso de dublagem.</p>
+                      <p class="card-text">Faz parte do nosso curso de teatro.</p>
                       <p class="card-text"><small class="text-muted">Prata da casa</small></p>
                     </div>
                   </div>
@@ -213,7 +224,7 @@
             </ul>
             <div class="d-flex align-items-center" style="margin-top: .5rem;">
               <span style="font-size: 16pt; font-weight: bold; margin-right: 1rem;">Faça parte da família: </span>
-              <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521967645678&text=Quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20curso%20de%20teatro." style="display: flex; align-items: center; text-decoration: none;" target="_blank"><button type="button" class="btn btn-info matricula"> <span>Matricule-se</span></button></a>
+              <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521967645678&text=Quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20curso%20de%20teatro." style="display: flex; align-items: center; text-decoration: none;" target="_blank"><button type="button" class="btn btn-info matricula"><i class="fab fa-whatsapp" style="margin-right: .25rem; font-size: 14pt;"></i> <span>Matricule-se</span></button></a>
             </div>
           </div>
           <div class="col-md-6">
@@ -223,10 +234,14 @@
                     <div class="card">
                       <div class="card-body">
                         <div class="card-head flex-column">
-                            <a href="https://instagram.com/lianemaya" target="_blank" class="card-title prof"  style="text-transform: uppercase;">Liane Maya</a>  
-                            <h5 class="card-title">Disciplina: Canto</h5>
+                            <a href="https://instagram.com/lianemaya" target="_blank" class="card-title prof" style="text-transform: uppercase;">Liane Maya</a>  
+                            <h5 class="card-title p">Disciplina: Canto</h5>
                         </div>
-                        <p class="card-text">Ementa: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate facere error velit, at consectetur culpa, ratione eveniet iure tempora placeat sit et aspernatur in aperiam. Eveniet minima mollitia explicabo..</p>
+                        <p class="card-text" style="font-weight: bold; text-align: center; font-size: 14pt; margin-top: 1.5rem;">Mais informações em:</p>
+                        <div class="d-flex justify-content-center" style="margin-bottom: 2.5rem;">
+                          <a href="Materias/canto.html" style="text-decoration: none;"><button style="background-color: #fadd00; width: 180px; height: 45px;" class="matricula">Sobre a Disciplina</button></a>
+                        </div>
+    
                         <p class="card-text"><small class="text-muted">Carga horária: 72 horas</small></p>
                       </div>
                     </div>
@@ -237,23 +252,28 @@
                           <div class="card-body">
                               <div class="card-head flex-column">
                                   <a href="https://instagram.com/lets_graca" target="_blank" class="card-title prof"  style="text-transform: uppercase;">Letícia Graça</a>  
-                                  <h5 class="card-title">Disciplina: Dança</h5>
+                                  <h5 class="card-title p">Disciplina: Dança</h5>
                         </div>
-                        <p class="card-text">Ementa: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate facere error velit, at consectetur culpa, ratione eveniet iure tempora placeat sit et aspernatur in aperiam. Eveniet minima mollitia explicabo..</p>
+                        <p class="card-text" style="font-weight: bold; text-align: center; font-size: 14pt; margin-top: 1.5rem;">Mais informações em:</p>
+                        <div class="d-flex justify-content-center" style="margin-bottom: 2.5rem;">
+                          <a href="Materias/danca.html" style="text-decoration: none;"><button style="background-color: #fadd00; width: 180px; height: 45px;" class="matricula">Sobre a Disciplina</button></a>
+                        </div>
+    
                         <p class="card-text"><small class="text-muted">Carga horária: 72 horas</small></p>
-                    </div>
+                      </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="card">
                     
                     <div class="card-body">
-                        <div class="card-head flex-column">
-                            <h5 class="card-title">Disciplina: Dublagem</h5>
+                        <div class="card-head flex-column" style="margin-bottom: 2.5rem;">
+                            <h5 class="card-title" style="font-size: 20pt;">Disciplina: Dublagem</h5>
+                            <p class="card-text" id="dubDesc">Ementa: A disciplina se destina a prátrica e aprendizado a respeito de técnicas de dublagem.</p>
                         </div>
-                        <p class="card-text">Ementa: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate facere error velit, at consectetur culpa, ratione eveniet iure tempora placeat sit et aspernatur in aperiam. Eveniet minima mollitia explicabo..</p>
+    
                         <p class="card-text"><small class="text-muted">Carga horária: 12 horas</small></p>
-                    </div>
+                      </div>
                 </div>
             </div>
             <div class="carousel-item">
@@ -262,10 +282,15 @@
                 <div class="card-body">
                   <div class="card-head flex-column">
                       <a href="https://instagram.com/michelecosendey" target="_blank" class="card-title prof"  style="text-transform: uppercase;">Michele Cosendey</a>  
-                    <h5 class="card-title">Disciplina: Expressão corporal</h5>
+                    <h5 class="card-title p">Disciplina: Expressão corporal</h5>
                   </div>
-                  <p class="card-text">Ementa: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate facere error velit, at consectetur culpa, ratione eveniet iure tempora placeat sit et aspernatur in aperiam. Eveniet minima mollitia explicabo.               <p class="card-text"><small class="text-muted">Carga horária: 72 horas</small></p>
-                </div>
+                  <p class="card-text" style="font-weight: bold; text-align: center; font-size: 14pt; margin-top: 1.5rem;">Mais informações em:</p>
+                        <div class="d-flex justify-content-center" style="margin-bottom: 2.5rem;">
+                          <a href="Materias/corpo.html" style="text-decoration: none;"><button style="background-color: #fadd00; width: 180px; height: 45px;" class="matricula">Sobre a Disciplina</button></a>
+                        </div>
+    
+                        <p class="card-text"><small class="text-muted">Carga horária: 72 horas</small></p>
+                      </div>
               </div>
             </div>
             <div class="carousel-item">
@@ -274,9 +299,13 @@
                       <div class="card-body">
                         <div class="card-head flex-column">
                             <h5 class="card-title" style="text-transform: uppercase;"><a href="https://instagram.com/oivanfernandes" class="prof" target="_blank">Ivan Fernandes</a> <span style="text-transform: lowercase;">e</span> <a href="https://instagram.com/sabina.aguiar.bibi" class="prof" target="_blank">Sabina Aguiar</a></h5>  
-                          <h5 class="card-title">Disciplina: História do teatro</h5>
+                          <h5 class="card-title p">Disciplina: História do teatro</h5>
                         </div>
-                        <p class="card-text">Ementa: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate facere error velit, at consectetur culpa, ratione eveniet iure tempora placeat sit et aspernatur in aperiam. Eveniet minima mollitia explicabo..</p>
+                        <p class="card-text" style="font-weight: bold; text-align: center; font-size: 14pt; margin-top: 1.5rem;">Mais informações em:</p>
+                        <div class="d-flex justify-content-center" style="margin-bottom: 2.5rem;">
+                          <a href="Materias/historia.html" style="text-decoration: none;"><button style="background-color: #fadd00; width: 180px; height: 45px;" class="matricula">Sobre a Disciplina</button></a>
+                        </div>
+    
                         <p class="card-text"><small class="text-muted">Carga horária: 72 horas</small></p>
                       </div>
                     </div>
@@ -287,9 +316,13 @@
                       <div class="card-body">
                         <div class="card-head flex-column">
                             <a href="https://instagram.com/igoribeiroator" target="_blank" class="card-title prof"  style="text-transform: uppercase;">Igo Ribeiro</a>  
-                          <h5 class="card-title">Disciplina: Interpretação</h5>
+                          <h5 class="card-title p">Disciplina: Interpretação</h5>
                         </div>
-                        <p class="card-text">Ementa: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate facere error velit, at consectetur culpa, ratione eveniet iure tempora placeat sit et aspernatur in aperiam. Eveniet minima mollitia explicabo..</p>
+                        <p class="card-text" style="font-weight: bold; text-align: center; font-size: 14pt; margin-top: 1.5rem;">Mais informações em:</p>
+                        <div class="d-flex justify-content-center" style="margin-bottom: 2.5rem;">
+                          <a href="Materias/interpretacao.html" style="text-decoration: none;"><button style="background-color: #fadd00; width: 180px; height: 45px;" class="matricula">Sobre a Disciplina</button></a>
+                        </div>
+    
                         <p class="card-text"><small class="text-muted">Carga horária: 216 horas</small></p>
                       </div>
                     </div>
@@ -300,9 +333,13 @@
                       <div class="card-body">
                         <div class="card-head flex-column">
                           <a href="https://instagram.com/luisacatoira.fonoaudiologa" target="_blank" class="card-title prof"  style="text-transform: uppercase;">Luisa Catoira</a>  
-                          <h5 class="card-title">Disciplina: Voz</h5>
+                          <h5 class="card-title p">Disciplina: Voz</h5>
                         </div>
-                        <p class="card-text">Ementa: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate facere error velit, at consectetur culpa, ratione eveniet iure tempora placeat sit et aspernatur in aperiam. Eveniet minima mollitia explicabo..</p>
+                        <p class="card-text" style="font-weight: bold; text-align: center; font-size: 14pt; margin-top: 1.5rem;">Mais informações em:</p>
+                        <div class="d-flex justify-content-center" style="margin-bottom: 2.5rem;">
+                          <a href="Materias/voz.html" style="text-decoration: none;"><button style="background-color: #fadd00; width: 180px; height: 45px;" class="matricula">Sobre a Disciplina</button></a>
+                        </div>
+    
                         <p class="card-text"><small class="text-muted">Carga horária: 72 horas</small></p>
                       </div>
                     </div>
@@ -349,32 +386,7 @@
               </a>
             </div>
             <div class="col-md-2 d-flex justify-content-center">
-              <a href="">
-              <div class="d-flex flex-column align-items-center">
-                <i class="far fa-gamepad-alt"></i>
-                <span>Localização para</span>
-                <span style="margin-top: .05rem;">Games</span>
-              </div>
-            </a>
-            </div>  
-            <div class="col-md-2 d-flex justify-content-center">
-              <a href="">
-              <div class="d-flex flex-column align-items-center">
-                <i class="far fa-file-music"></i>
-                <span>Audiobooks</span>
-              </div>
-              </a>
-            </div>
-            <div class="col-md-2 d-flex justify-content-center">
-              <a href="">
-              <div class=" d-flex flex-column align-items-center">
-                <i class="far fa-tv"></i>
-                <span>TV</span>
-              </div>
-              </a>
-            </div>
-            <div class="col-md-2 d-flex justify-content-center">
-              <a href="">
+              <a href="cinema.html">
               <div class="d-flex flex-column align-items-center">
                 <i class="far fa-film"></i>
                 <span>Cinema</span>
@@ -382,7 +394,31 @@
             </a>
             </div>  
             <div class="col-md-2 d-flex justify-content-center">
-              <a href="">
+              <a href="../construcao.html">
+              <div class="d-flex flex-column align-items-center">
+                <i class="far fa-gamepad-alt"></i>
+                <span>Games</span>
+              </div>
+            </a>
+            </div>  
+            <div class="col-md-2 d-flex justify-content-center">
+              <a href="../construcao.html">
+              <div class="d-flex flex-column align-items-center">
+                <i class="far fa-file-music"></i>
+                <span>Audiobooks</span>
+              </div>
+              </a>
+            </div>
+            <div class="col-md-2 d-flex justify-content-center">
+              <a href="../construcao.html">
+              <div class=" d-flex flex-column align-items-center">
+                <i class="far fa-tv"></i>
+                <span>TV</span>
+              </div>
+              </a>
+            </div>
+            <div class="col-md-2 d-flex justify-content-center">
+              <a href="../construcao.html">
               <div class="d-flex flex-column align-items-center">
                 <i class="far fa-globe"></i>
                 <span>Midías Digitais</span>
@@ -396,7 +432,7 @@
     <!-- Contato -->
     <div id="contato">
       <div class="container">
-        <div class="row">
+        <div class="row" id="rodape1">
           <div class="col-12">
             <h3 class="mainTitle">Nossos contatos:</h3>
           </div>
@@ -413,8 +449,8 @@
               <a href="https://br.linkedin.com/company/familia-dublemix" target="_blank" style="display: flex; align-items: center; margin-left: .1rem;"><i class="fab fa-linkedin"></i><span style="margin-left: .75rem;">Família Dublemix</span></a>
               <a href="https://www.youtube.com/channel/UC5Fr33VshM3lJqNPmi0ZZ3w" target="_blank" style="display: flex; align-items: center;"><i class="fab fa-youtube"></i><span style="margin-left: .5rem;">Dublemix Audiovisual</span></a>
           </div>
-          <div class="col-md-3 d-flex justify-content-center">
-            <img src="../img/logo2.png" style="width: 85%; height: 80%;" alt="logo redonda">
+          <div class="col-md-3 d-flex justify-content-center" id="logo2">
+            <img src="../img/logo2.png" style="width: 100%; height: 80%;" id="logo2" alt="logo redonda">
           </div>
         </div>
       </div>

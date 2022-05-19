@@ -17,7 +17,7 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1f1a17;">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="img/logo.jpg" width="200" alt="Dublemix logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,18 +30,18 @@
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre Nós</a>
+              <a class="nav-link" href="#sobre">Sobre Nós</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                 Serviços
               </a>
               <div class="dropdown-menu" style="background-color: #181818;" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Dublagem</a>
-                <a class="dropdown-item" href="#">Acessibilidade</a>
-                <a class="dropdown-item" href="#">Audiobooks</a>
-                <a class="dropdown-item" href="#">Legendagem</a>
-                <a class="dropdown-item" href="#">Tradução</a>
+                <a class="dropdown-item" href="construcao.html">Dublagem</a>
+                <a class="dropdown-item" href="construcao.html">Acessibilidade</a>
+                <a class="dropdown-item" href="construcao.html">Audiobooks</a>
+                <a class="dropdown-item" href="construcao.html">Legendagem</a>
+                <a class="dropdown-item" href="construcao.html">Tradução</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -51,22 +51,23 @@
               <div class="dropdown-menu" style="background-color: #181818;" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="cursos/dublagem.html">Dublagem</a>
                 <a class="dropdown-item" href="cursos/teatro.html">Teatro</a>
-                <a class="dropdown-item" href="#">Radionovela</a>
+                <a class="dropdown-item" href="construcao.html">Radionovela</a>
+                <a class="dropdown-item" href="cursos/cinema.html">Cinema</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Cursos Livres</a>
+                <a class="dropdown-item" href="construcao.html">Cursos Livres</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#contato">Contato</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Banco de Talentos</a>
+              <a class="nav-link" href="talentos.html">Banco de Talentos</a>
             </li>
         </div>
       </nav>
       <div class="container-fluid titulo">
         <h1>Família Dublemi<span style="color: #fadd00;">x</span></h1>
-        <div class="d-flex justify-content-around">
+        <div class="d-flex justify-content-around" id="Somos">
           <span>Estúdio de <strong>dublagem</strong></span>
           <span>Escola de <strong>dublagem</strong></span>
           <span>Escola de <strong>teatro</strong></span>
@@ -83,7 +84,7 @@
             <img src="img/slider1.jpg" class="d-block w-100" height="450" alt="...">
             <div class="carousel-caption d-sm-block" id="estudio">
               <h5>Estúdio de Dublagem</h5>
-              <p style="color: white; font-size: 22pt;">Realizando a melhor <span style="color: #fadd00;">versão brasileira</span> pra você!</p>
+              <p style="color: white; font-size: 22pt;" class="slogan">Realizando a melhor <span style="color: #fadd00;">versão brasileira</span> pra você!</p>
               <p style="margin: 1rem 0 2rem 0;">Nosso compromisso: <b>confidencialidade, qualidade, prazo e preço.</b></p>
               <button type="button" class="btn btn-info saibaMais">Orçamento</button>
             </div>
@@ -92,13 +93,15 @@
             <img src="img/slider2.jpg" class="d-block w-100" height="450" alt="...">
             <div class="carousel-caption d-sm-block">
               <h5>Curso de Dublagem</h5>
-              <ul>
-                <li>Turmas com apenas 5 alunos;</li>
-                <li>12 meses de duração;</li>
-                <li>8 horas de aula por mês;</li>
-                <li>3 módulos (Básico, Intermediário, Avançado);</li>
-                <li><strong>12 professores (diretores de dublagem atuantes no mercado).</strong></li>
-              </ul>
+              <div class="d-flex justify-content-center" style="margin: 0 2rem;">
+                <ul>
+                  <li>Turmas com apenas 5 alunos;</li>
+                  <li>12 meses de duração;</li>
+                  <li>8 horas de aula por mês;</li>
+                  <li>3 módulos (Básico, Intermediário, Avançado);</li>
+                  <li><strong>12 professores (diretores de dublagem atuantes no mercado).</strong></li>
+                </ul>
+              </div>
               <a href="cursos/dublagem.html"><button type="button" class="btn btn-info saibaMais">Saiba Mais</button></a>
             </div>
           </div>
@@ -106,6 +109,7 @@
             <img src="img/slider3.jpg" class="d-block w-100" height="450" alt="...">
             <div class="carousel-caption d-sm-block">
               <h5>Curso de Teatro Profissionalizante</h5>
+              <div class="d-flex justify-content-center" style="margin: 0 2rem;">
               <ul>
                 <li>Turmas com até 15 alunos;</li>
                 <li>18 meses de duração;</li>
@@ -113,6 +117,7 @@
                 <li>7 disciplinas (Canto, Corpo, Dança, Dublagem, História, Interpretação e Voz);</li>
                 <li><strong>Curso com Registro profissional de ator (a) - DRT</strong></li>
               </ul>
+            </div>
               <a href="cursos/teatro.html"><button type="button" class="btn btn-info saibaMais">Saiba Mais</button></a>
             </div>
           </div>
@@ -157,7 +162,7 @@
           </div>
           <div class="d-flex justify-content-center" style="width: 100%;">
             <div class="col-md-2 d-flex justify-content-center">
-              <a href="">
+              <a href="construcao.html">
                 <div class="d-flex flex-column align-items-center">
                   <i class="fas fa-microphone-alt"></i>
                   <span>Dublagem</span>
@@ -165,7 +170,7 @@
               </a>
             </div>
             <div class="col-md-2 d-flex justify-content-center">
-              <a href="">
+              <a href="construcao.html">
               <div class="d-flex flex-column align-items-center">
                 <i class="far fa-head-side-headphones"></i>
                 <span>Acessibilidade</span>
@@ -173,7 +178,7 @@
               </a>
             </div>
             <div class="col-md-2 d-flex justify-content-center">
-              <a href="">
+              <a href="construcao.html">
               <div class="d-flex flex-column align-items-center">
                 <i class="far fa-file-music"></i>
                 <span>Audiobooks</span>
@@ -181,7 +186,7 @@
               </a>
             </div>
             <div class="col-md-2 d-flex justify-content-center">
-              <a href="">
+              <a href="construcao.html">
               <div class=" d-flex flex-column align-items-center">
                 <i class="far fa-closed-captioning"></i>
                 <span>Legendagem</span>
@@ -189,7 +194,7 @@
               </a>
             </div>
             <div class="col-md-2 d-flex justify-content-center">
-              <a href="">
+              <a href="construcao.html">
               <div class="d-flex flex-column align-items-center">
                 <i class="far fa-language"></i>
                 <span>Tradução</span>
@@ -203,7 +208,7 @@
     <!-- Contato -->
     <div id="contato">
       <div class="container">
-        <div class="row">
+        <div class="row" id="rodape1">
           <div class="col-12">
             <h3 class="mainTitle">Nossos contatos:</h3>
           </div>
@@ -220,8 +225,8 @@
               <a href="https://br.linkedin.com/company/familia-dublemix" target="_blank" style="display: flex; align-items: center; margin-left: .1rem;"><i class="fab fa-linkedin"></i><span style="margin-left: .75rem;">Família Dublemix</span></a>
               <a href="https://www.youtube.com/channel/UC5Fr33VshM3lJqNPmi0ZZ3w" target="_blank" style="display: flex; align-items: center;"><i class="fab fa-youtube"></i><span style="margin-left: .5rem;">Dublemix Audiovisual</span></a>
           </div>
-          <div class="col-md-3 d-flex justify-content-center">
-            <img src="img/logo2.png" style="width: 100%; height: 80%;" alt="logo redonda">
+          <div class="col-md-3 d-flex justify-content-center" id="logo2">
+            <img src="img/logo2.png" style="width: 100%; height: 80%;" id="logo2" alt="logo redonda">
           </div>
         </div>
       </div>

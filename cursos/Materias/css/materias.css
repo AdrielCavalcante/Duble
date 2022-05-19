@@ -1,0 +1,21 @@
+h6 {
+    color: #fadd00;
+    font-size: 16pt;
+}
+
+.ementa li {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#prof {
+    background-color: #212121;
+}
+
+/* Responsive Tablet*/
+@media(max-width: 768px){
+
+    #prof img {
+        width: 250px;
+    }
+}
