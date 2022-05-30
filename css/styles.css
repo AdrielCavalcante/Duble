@@ -299,25 +299,52 @@ body {
 
 @media(max-width: 426px){
     /*Home*/
+    p{
+        margin-right: 0 !important;
+    }
+
+    h1 {
+        font-size: 2.25rem;
+    }
+
     #Somos {
         display: none !important;
     }
 
     .carousel-item img{
-        height: 360px;
+        height: 245px;
     }
 
     .slogan {
-        font-size: 16pt !important;
+        font-size: 10pt !important;
+        margin: 0.5rem !important;
     }
 
     .carousel-caption {
         margin: .5rem 0;
         padding: 0.5rem 0.25rem;
+        bottom: 10px;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .carousel-caption h5 {
+        margin-bottom: 5px;
+        font-size: 14pt;
+    }
+
+    .tituloSlide{
+        font-size: 8pt !important;
     }
 
     .carousel-caption li {
-        font-size: 10pt;
+        font-size: 7pt;
+    }
+
+    .carousel-caption .slide3 {
+        font-size: 7pt;
     }
 
     #servicos .container{
@@ -389,5 +416,9 @@ body {
 
     .convidando {
         font-size: 14pt;
+    }
+
+    .teatroTitulo {
+        font-size: 1.75rem;
     }
 }
