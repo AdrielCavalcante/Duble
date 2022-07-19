@@ -298,9 +298,11 @@ body {
         margin-right: 0 !important;
     }
 
+    /* curso dub */
     #diferenciais .card-text {
         font-size: 10pt;
         text-align: left;
+        flex-wrap: nowrap;
         margin-bottom: 0;
     }
 
@@ -413,7 +415,7 @@ body {
     }
 
     #diferenciais .card-text {
-        font-size: 11.5pt;
+        font-size: 10pt;
         text-align: left;
         margin-bottom: 1.5rem !important;
     }
@@ -423,7 +425,8 @@ body {
     }
 
     .card-head .card-title {
-        font-size: 13.5pt;
+        font-size: 12.5pt;
+        gap: 5px;
     }
 
     #dubDesc {
