@@ -175,6 +175,19 @@ body {
     list-style-type: none;
 }
 
+#diferenciais ol {
+    margin-left: 2.75rem;
+}
+
+#diferenciais ol li::marker {
+    color: #fadd00;
+    font-weight: bold;
+}
+
+#diferenciais ol li span{
+    color: #fadd00;
+}
+
 #diferenciais li {
     margin: .25rem 0;
 }
@@ -190,7 +203,7 @@ body {
 }
 
 #diferenciais .card {
-    height: 320px;
+    min-height: 22.5rem;
 }
 
 .card-head {
@@ -232,6 +245,14 @@ body {
 
 .card {
     color: #181818;  margin: 1rem auto;
+}
+
+.cardDublagem {
+    background-color: #181818;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    padding: .5rem;
 }
 
 #dubDesc {
@@ -422,13 +443,14 @@ body {
     }
 
     #diferenciais .card-text {
-        font-size: 10pt;
+        font-size: 10pt !important;
         text-align: left;
-        margin-bottom: 1.5rem !important;
+        margin-bottom: 1rem !important;
     }
 
     #diferenciais .card {
-        height: 350px;
+        min-height: 22.5rem;
+        max-height: 22.5rem;
     }
 
     .card-head .card-title {
@@ -450,5 +472,13 @@ body {
 
     .teatroTitulo {
         font-size: 1.75rem;
+    }
+
+    #diferenciais li {
+        margin: 1rem 0;
+    }
+
+    #diferenciais ol li::marker {
+        margin-right: 1rem;
     }
 }
