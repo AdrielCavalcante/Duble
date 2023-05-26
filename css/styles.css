@@ -203,7 +203,8 @@ body {
 }
 
 #diferenciais .card {
-    min-height: 22.5rem;
+    min-height: 23rem;
+    max-height: 24rem;
 }
 
 .card-head {
@@ -284,6 +285,10 @@ body {
     text-decoration: none;
 }
 
+.card .card-title {
+    text-align: center;
+}
+
 .card-deck .port a i {
     font-size: 26pt;
     color: rgba(250, 221, 0, 0);
@@ -298,6 +303,14 @@ body {
 
 .card-deck .port:hover a i {
     color: rgba(250, 221, 0, 1);
+}
+
+.card-deck .port h5 {
+    text-align: center;
+}
+
+.textoDuble {
+    font-size: .9rem;
 }
 
 /* Responsive Tablet*/
