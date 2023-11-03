@@ -47,9 +47,24 @@ body {
 }
 
 .carousel-caption {
-    margin: 5rem 0;
+    top: 35vh;
+    height: fit-content;
     padding: 1rem 0;
     background-color: rgba(0, 0, 0, .7);
+}
+
+.controles {
+    margin-top: 25vh;
+}
+
+.carousel-item {
+    min-height: 75vh;  
+}
+
+.carousel-item img {
+    min-height: 75vh;
+    object-fit: cover;
+    object-position: center;
 }
 
 .carousel-caption ul {
@@ -313,6 +328,12 @@ body {
     font-size: .9rem;
 }
 
+@media(max-width: 1199px) {
+    .midias {
+        justify-content: center !important;
+    }
+}
+
 /* Responsive Tablet*/
 @media(max-width: 768px){
     /*Home*/
@@ -370,23 +391,39 @@ body {
         font-size: 2.25rem;
     }
 
+    .carousel-caption ul {
+        display: none;
+    }
+
     #Somos {
         display: none !important;
     }
 
+    .carousel-item {
+        min-height: 50vh;
+    }
+
     .carousel-item img{
-        height: 360px;
+        min-height: 50vh;
+    }
+
+    .controles {
+        margin-top: 0;
     }
 
     .slogan {
         font-size: 10pt !important;
         margin: 0.5rem !important;
+        display: none;
     }
 
     .carousel-caption {
-        margin: 3.25rem 0;
+        top: 2.5vh !important;
         padding: 1rem 0.25rem;
         bottom: 10px;
+        background-color: transparent;
+        height: 90%;
+        justify-content: space-between;
     }
 
     .carousel-indicators {
@@ -396,10 +433,8 @@ body {
     .carousel-caption h5 {
         margin-bottom: 5px;
         font-size: 14pt;
-    }
-
-    .tituloSlide{
-        font-size: 8pt !important;
+        background-color: rgba(0, 0, 0, .75);
+        padding: .5rem 0;
     }
 
     .carousel-caption li {
