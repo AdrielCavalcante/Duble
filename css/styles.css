@@ -47,14 +47,14 @@ body {
 }
 
 .carousel-caption {
-    top: 35vh;
+    top: 10vw;
     height: fit-content;
     padding: 1rem 0;
     background-color: rgba(0, 0, 0, .7);
 }
 
 .controles {
-    margin-top: 25vh;
+    margin-top: -1vw;
 }
 
 .carousel-item {
@@ -340,6 +340,11 @@ body {
     font-size: .9rem;
 }
 
+.teatromusical-prof {
+    padding: 2rem 0;
+    background: linear-gradient(to bottom, #212121, #fadd0010);
+}
+
 @media(max-width: 1199px) {
     .midias {
         justify-content: center !important;
@@ -391,9 +396,17 @@ body {
     .p {
         font-size: 14pt;
     }
+
+    .reverse-mobile {
+        flex-direction: column-reverse;
+    }
+
+    #prof div .img-teatromusical {
+        height: auto;
+    }
 }
 
-@media(max-width: 426px){
+@media(max-width: 435px){
     /*Home*/
     p{
         margin-right: 0 !important;
